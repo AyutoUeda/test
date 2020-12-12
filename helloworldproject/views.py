@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 
 def helloworldfunc(request):
-  responseobject = HttpResponse('hello world')
+  responseobject = HttpResponse('<h1>hello world</h1>')
   return responseobject
 
   # requestオブジェクトを受け取りresponseオブジェクトを返す
